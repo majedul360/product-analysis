@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Jhon",
+    "img": "images/pic-1.png",
+
+    "desc": "The MacBook Air, powered by Apple’s M1 processor, is the best laptop you can buy. The base model, which includes 8GB of RAM and 256 GB of storage, starts at $999. Overall, there’s no reason that a general-use customer shouldn’t consider the MacBook Air. It’s a reliable device with excellent performance, as well as the excellence in build quality for which Apple is known. Power users who need a MacBook Pro probably know who they are; the Air should be fine for everyone else.",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "name": "Lana",
+    "img": "images/pic-2.png",
+
+    "desc": "The 16-inch MacBook Pro is the most powerful laptop Apple has ever made. If you’re willing to pay the price (and it’s a steep price), you’ll almost certainly be satisfied with what this machine can do. In our benchmarks, which test a variety of creative tasks including encoding, playback, and export time",
+    "rating": 4.5
+  },
+  {
+    "id": 3,
+    "name": "Austin",
+    "img": "images/pic-3.png",
+
+    "desc": "If you’re a creative professional who doesn’t quite want to pay the price of the MacBook Pro 16, or you’re looking for something more compact, you’re probably better suited to the 14-inch MacBook Pro. This device is thinner, lighter, and less expensive than its 16-inch counterpart, but it comes with the same monstrous processor options and the same stellar screen, albeit at a smaller size.",
+    "rating": 5
+  },
+  {
+    "id": 4,
+    "name": "Saira",
+    "img": "images/pic-4.png",
+
+    "desc": "In many ways, the ThinkPad X1 Nano is a run-of-the-mill ThinkPad. It’s got a solid sturdy chassis, discrete clickers, a physical privacy shutter, a red TrackPoint in the middle of the keyboard, and all kinds of business-specific security and management features.",
+    "rating": 4.5
+  },
+  {
+    "id": 5,
+    "name": "Maikel",
+    "img": "images/pic-5.png",
+
+    "desc": "Lenovo’s Chromebook Duet is a great convertible laptop for kids, or anyone who wants a reliable secondary driver for browsing and games. It’s a nice-looking, well-made 10-inch device that comes with a detachable keyboard and kickstand.",
+    "rating": 5
+  },
+  {
+    "id": 6,
+    "name": "jaira",
+    "img": "images/pic-6.png",
+
+    "desc": "Razer is best known for its gaming laptops, but the company is making a big splash in the business and productivity space with its new Razer Book 13. At 0.6 inches thick and 3.09 pounds, the Book 13 is a portable workstation with a gorgeous and sturdy aluminum build. It features a good port selection including Thunderbolt 4, USB-A, HDMI 2.0 and a microSD slot, and it’s one of very few non-gaming laptops out there to come with a per-key RGB keyboard.",
+    "rating": 4.5
+  }
+]

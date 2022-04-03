@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header nav .nav-link {
+  margin: 0 2rem;
+  font-size: 2rem;
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: #ddd;
+  text-underline-offset: 0.7rem;
+}
