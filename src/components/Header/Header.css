@@ -2,6 +2,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 1000;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 
 .header nav .nav-link {
@@ -11,4 +16,38 @@
   text-decoration: underline;
   text-decoration-color: #ddd;
   text-underline-offset: 0.7rem;
+}
+
+.header .hambarger-menu {
+  font-size: 2.5rem;
+  margin-left: auto;
+  display: none;
+}
+
+/* media quearies */
+@media (max-width: 768px) {
+  .header .hambarger-menu {
+    display: block;
+  }
+
+  .header nav {
+    position: absolute;
+    top: 99%;
+    left: 0;
+    right: 0;
+    background: white;
+    z-index: 999;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    transition: all 0.2s linear;
+  }
+
+  .header nav.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+
+  .header nav .nav-link {
+    display: block;
+    text-align: center;
+    margin: 2rem 0;
+  }
 }
