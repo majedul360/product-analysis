@@ -1,0 +1,49 @@
+.home .banner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4rem;
+  padding-bottom: 8rem;
+}
+
+.home .banner .box {
+  flex: 1 1 41rem;
+}
+
+.home .banner .box h1 {
+  font-size: 4rem;
+}
+
+.home .banner .box p {
+  font-size: 1.7rem;
+  text-transform: none;
+  line-height: 3rem;
+}
+
+.home .banner img {
+  width: 100%;
+}
+
+.home .customer-reviews {
+  text-align: center;
+}
+
+.home .customer-reviews h2 {
+  font-size: 3rem;
+  margin-bottom: 4rem;
+}
+
+.home .customer-reviews .btn {
+  background-color: #15023a;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1.7rem;
+  border-radius: 0.5rem;
+}
+
+.home .customer-reviews .card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+  gap: 4rem;
+  padding-bottom: 5rem;
+}
