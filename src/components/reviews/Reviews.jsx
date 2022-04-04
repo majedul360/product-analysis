@@ -3,7 +3,6 @@ import { GetData } from "../customHook/CustomHook";
 import Card from "../card/Card";
 const Reviews = () => {
   const reviews = GetData("data/reviews.json");
-  console.log(reviews);
   return (
     <div className="reviews">
       <div className="card-container">
