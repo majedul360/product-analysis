@@ -1,48 +1,48 @@
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import Customlink from "../customLink/CustomLink";
 import "./Header.css";
 const Header = () => {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
   return (
     <div className="header">
       <nav className={`${menuIsOpen && "active"}`}>
-        <Link
+        <Customlink
           onClick={() => setMenuIsOpen(false)}
           to="/home"
           className="nav-link"
         >
           Home
-        </Link>
-        <Link
+        </Customlink>
+        <Customlink
           onClick={() => setMenuIsOpen(false)}
           to="/reviews"
           className="nav-link"
         >
           Reviews
-        </Link>
-        <Link
+        </Customlink>
+        <Customlink
           onClick={() => setMenuIsOpen(false)}
           to="/dashboard"
           className="nav-link"
         >
           Dashboard
-        </Link>
-        <Link
+        </Customlink>
+        <Customlink
           onClick={() => setMenuIsOpen(false)}
           to="/blogs"
           className="nav-link"
         >
           Blogs
-        </Link>
-        <Link
+        </Customlink>
+        <Customlink
           onClick={() => setMenuIsOpen(false)}
           to="/about"
           className="nav-link"
         >
           About
-        </Link>
+        </Customlink>
       </nav>
       <FontAwesomeIcon
         onClick={() => setMenuIsOpen(!menuIsOpen)}
