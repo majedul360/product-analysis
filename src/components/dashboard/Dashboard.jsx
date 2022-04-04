@@ -1,19 +1,16 @@
+import Barchart from "../charts/BarChart";
+import Stackedareachart from "../charts/StackedAreaChart";
+import Tinybarchart from "../charts/TinyBarChart";
 import "./Dashboard.css";
-import { GetData } from "../customHook/CustomHook";
-import {
-  BarChart,
-  Bar,
-  Cell,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  Tooltip,
-  Legend,
-  ResponsiveContainer,
-} from "recharts";
+
 const Dashboard = () => {
-  const data = GetData("data/charts.json");
-  return <div></div>;
+  return (
+    <div className="dash-board">
+      <Stackedareachart />
+      <Tinybarchart />
+      <Barchart />
+    </div>
+  );
 };
 
 export default Dashboard;
