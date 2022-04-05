@@ -1,6 +1,6 @@
 # Best Buy
 
-This website shows customer reviews of laptops. This website helps those who are want to buy the best laptop on their budget. [Best Buyb](https://best-buy-2022.netlify.app/).
+This website shows customer reviews of laptops. This website helps those who are want to buy the best laptop on their budget. [Best Buy](https://best-buy-2022.netlify.app/).
 
 ## Bullet points
 
