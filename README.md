@@ -1,6 +1,15 @@
-# Getting Started with Create React App
+# Best Buy
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This website shows customer reviews of laptops. This website helps those who are want to buy the best laptop on their budget. [Best Buyb](https://best-buy-2022.netlify.app/).
+
+## Bullet points
+
+- Laptop Review Website
+- Html, Css, React-js, React router, FontAwesome used
+- Google font used
+- Simple design
+- Clean Coding
+- Fully Responsive
 
 ## Available Scripts
 
